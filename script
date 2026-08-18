@@ -1,0 +1,9 @@
+abogado-activo-rd/
+│
+├── /frontend         # Interfaz de usuario
+├── /backend          # Lógica, API, MEJI v1.0
+├── /database         # Casos reales, plantillas, jurisprudencia
+│   └── seed-data/
+│       └── SANTA-ARIAS-2026-001.json  # Caso real cargado
+├── /templates        # Demanda, Poder, Querella, etc
+└── /docs             # Documentación
