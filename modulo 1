@@ -1,0 +1,24 @@
+'use client'
+import { useState } from 'react'
+
+export default function Diagnostico() {
+  const [hechos, setHechos] = useState('')
+  const [res, setRes] = useState('')
+
+  const analizar = () => {
+    if(hechos.toLowerCase().includes('invasión') || hechos.toLowerCase().includes('construyendo')) {
+      setRes('DIAGNÓSTICO: Art 109 CPC - Referimiento + Ley 5869 - Acción Penal. Jurisprudencia: SCJ-PS-23-2128')
+    } else {
+      setRes('Describe los hechos del caso')
+    }
+  }
+
+  return (
+    <div className="p-8">
+      <h1 className="text-2xl font-bold">DIAGNÓSTICO LEGAL</h1>
+      <textarea value={hechos} onChange={e => setHechos(e.target.value)} placeholder="Ej: Están construyendo en el terreno..." className="w-full h-32 border p-2 mt-4"/>
+      <button onClick={analizar} className="bg-blue-600 text-white px-4 py-2 rounded mt-2">Analizar</button>
+      <p className="mt-4 font-bold">{res}</p>
+    </div>
+  )
+}
