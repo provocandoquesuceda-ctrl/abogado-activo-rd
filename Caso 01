@@ -1,0 +1,35 @@
+{
+  "id": "SANTA-ARIAS-2026-001",
+  "tribunal": "Cámara Civil, Comercial y de Trabajo del Juzgado de Primera Instancia del Distrito Judicial de Valverde",
+  "fecha_audiencia": "2026-08-04",
+  "demandante": {
+    "nombre": "SANTA ARIAS DE HERNANDEZ",
+    "cedula": "052-0012345-6"
+  },
+  "demandados": [
+    {"nombre": "THERMA DE LEON", "cedula": "052-0098765-4"},
+    {"nombre": "DEYSIS RAMIREZ", "cedula": "052-0054321-8"},
+    {"nombre": "DIGNA MARTE", "cedula": "052-0034567-9"}
+  ],
+  "objeto": "Referimiento en desalojo por turbación y violación Ley 5869",
+  "tipo_accion": ["Art. 109 Código Procedimiento Civil", "Ley 5869 sobre Violación de Propiedad"],
+  "pruebas": [
+    "Informe Técnico Agrimensor Juan Almonte",
+    "Acto de Alguacil 01/2026",
+    "Testigo: IBAN ARIAS",
+    "Testigo: AGRIMENSOR JUAN ALMONTE"
+  ],
+  "escritos_generados": [
+    "Demanda en Referimiento",
+    "Ampliatorio a Demanda", 
+    "Poder Cuota Litis",
+    "Querella Penal Ley 5869",
+    "Acto de Depósito de Documentos"
+  ],
+  "jurisprudencia_clave": [
+    "SCJ-PS-23-2128: Desalojo por turbación",
+    "SCJ-PS-22-1845: Aplicación Ley 5869",
+    "TC/0345/21: Derecho de Propiedad"
+  ],
+  "status": "En Proceso"
+}
