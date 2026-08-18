@@ -1,0 +1,19 @@
+export default function Home() {
+  return (
+    <main className="p-8">
+      <h1 className="text-4xl font-bold">ABOGADO ACTIVO RD ⚖️</h1>
+      <p className="mt-2">MEJI v1.0 - Motor de Expedientes Jurídicos Inteligentes</p>
+      
+      <div className="mt-8">
+        <h2 className="text-xl font-bold">Caso Activo:</h2>
+        <p><b>SANTA-ARIAS-2026-001</b></p>
+        <p>Objeto: Referimiento + Ley 5869</p>
+        <p>Audiencia: 04/08/2026</p>
+      </div>
+
+      <a href="/diagnostico" className="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded">
+        Ir a Diagnóstico
+      </a>
+    </main>
+  )
+}
